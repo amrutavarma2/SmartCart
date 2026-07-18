@@ -1,0 +1,16 @@
+{
+  "name": "grocery-compare-website",
+  "version": "1.0.0",
+  "description": "A full-stack MERN application that allows users to compare a single cart across Blinkit, Zepto, BigBasket, and Instamart.",
+  "main": "index.js",
+  "scripts": {
+  "dev": "concurrently \"npm run dev --prefix server\" \"npm run dev --prefix client\""
+},
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "devDependencies": {
+    "concurrently": "^9.2.1"
+  }
+}
